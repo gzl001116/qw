@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ppck-ver" content="8dbc9f7e0134a86cb03118561b4f0a83" />
     <title><%= title %> - 我的博客</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/highlight.css">
@@ -19,7 +20,8 @@
     
     <main>
         <article class="post">
-            <h2><%= title %></h2>
+            <h1><%= title %></h1>
+            <p class="post-meta">发布日期: <%= date %></p>
             <div class="post-content">
                 <%- content %>
             </div>
